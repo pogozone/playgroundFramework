@@ -1,0 +1,23 @@
+homepage:
+  path: homepage
+  controller: controller.homepage
+
+detail:
+  path: detail/year/month/slug
+  controller: controller.detail
+  method: [GET]
+
+plant:
+  path: plant/year/month/slug
+  controller: controller.detail
+  method: [GET]
+
+edit:
+  path: edit/id
+  controller: controller.edit
+  method: [GET]
+
+update:
+  path: edit
+  controller: controller.edit
+  method: [POST]
